@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quiz-section{
+    height: 60%;
+    width: 50%;
+    background: linear-gradient(45deg,#fff, #afafe8);
+    margin-top: 8%;
+    margin-left: 25%;
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+input[type="radio"]:checked+label{
+    background-color: #afafe8;
+    border-color: #8ec5fc;
+}
+
+.btn{
+    padding: 2rem 5rem;
+}
+
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #afafe8,
+    0 0 50px #7171bb, 0 0 100px #7171bb;
+}
+
+button:hover{
+    background-color: #afafe8;
+    cursor: pointer;
+    border-color: purple;
+}
+
+ul li{
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
